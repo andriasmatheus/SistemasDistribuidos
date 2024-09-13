@@ -1,0 +1,8 @@
+latinha n = 0;
+truco teste = "TRUCO";
+
+evidencias(n < 10){
+    n = n+1;
+    canta("%s", teste);
+    canta("");
+}

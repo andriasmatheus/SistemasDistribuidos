@@ -1,0 +1,30 @@
+latinha n;
+
+canta("Digite um número maior que 0");
+bebe("%d", &n);
+
+velho (n <= 0){
+    canta("O valor deve ser maior que 0");
+}
+barreiro{
+    latinha fib1 = 0;
+    latinha fib2 = 1;
+    latinha proximo = 1;
+    latinha i = 1;
+
+    canta("%d", fib1);
+    canta("");
+
+    boateAzul(i; i < n; i++){
+        velho (i == 1){
+            proximo = fib2;
+        }
+        barreiro{
+            proximo = fib1 + fib2;
+            fib1 = fib2;
+            fib2 = proximo;
+        }
+        canta("%d", proximo);
+        canta("");
+    }
+}
